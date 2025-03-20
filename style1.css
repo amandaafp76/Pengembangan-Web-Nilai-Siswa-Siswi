@@ -1,0 +1,271 @@
+.lupa-password-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.lupa-password-page .container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+form {
+    text-align: left;
+}
+.lupa-password-page input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.lupa-password-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #003366;
+}
+a {
+    text-decoration: none;
+    color: #003366;
+    display: block;
+    margin-top: 10px;
+}
+a:hover {
+    color: #003366;
+}
+.hidden {
+    display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.biodatasiswa-page{
+    background-color: #f4f4f4;
+}
+.navbar {
+    background-color: #004085;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-left img {
+    width: 50px;
+    margin-right: 10px;
+}
+.navbar-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-menu {
+    font-size: 14px;
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+}
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.icon:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #004085;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.biodatasiswa-page .container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.biodatasiswa-page h2 {
+    font-size: 22px;
+    color: #004085;
+    margin-bottom: 15px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile img {
+    width: 120px;
+    height: 140px;
+    border-radius: 5px;
+    border: 2px solid #004085;
+}
+.biodata {
+    flex: 1;
+}
+.biodata table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.biodata td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+.biodata td:first-child {
+    font-weight: bold;
+    color: #004085;
+    width: 35%;
+}
+.actions {
+    margin-top: 15px;
+    text-align: right;
+}
+.btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btn-edit {
+    background-color: #ffc107;
+    color: black;
+    width: auto; 
+    display: inline-block;
+}
+.btn-aksi {
+    background-color: #17a2b8;
+    color: white;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+/*pendaftaran*/
+.pendaftaran-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAEDED;
+}
+.pendaftaran-page .container{
+    width: 360px;
+    text-align: left;
+}
+.pendaftaran-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.pendaftaran-page input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    outline: none;
+}
+.text-small {
+    font-size: 14px;
+    display: block;
+}
+.text-small a {
+    color: #003366;
+    text-decoration: none;
+    display: inline;
+}
+.pendaftaran-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/*beranda*/
+.beranda-page {
+    background-color: #f8f9fa;
+}
+/*login*/
+.masuk-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.masuk-page .container {
+    width: 360px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.masuk-page h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+.masuk-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
