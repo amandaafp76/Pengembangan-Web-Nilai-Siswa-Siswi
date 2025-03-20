@@ -1,14 +1,14 @@
 # Pengembangan-Web-Nilai-Siswa-Siswi
-# 🌟 UAS Kelompok 2 🌟
+# 🌟 Kelompok 8 🌟
 
 ## 📂 Daftar Isi Folder
-- **Dokumen UAS** 📄
+- **Dokumen** 📄
   - 📘 Dokumentasi Awal Proyek Pengembangan Basis Data Toko Risky Bawang dan Palawija.pdf
   - 📙 Fitur Database[1].pdf
   - 📗 LAPORAN TUGAS UAS kelompok 2.pdf
   - 📕 MANUAL PENGGUNAAN SISTEM MANAJEMEN.pdf
 - **Folder Basic** 📁
-  - 🔧 Codingan composer
+  - 🔧 Codingan HTML
 
 ---
 
@@ -30,13 +30,13 @@ For detailed documentation, refer to the files linked below (written in Indonesi
 ## 🤝 Contributors
 | Contributor       | GitHub Profile                                  |
 |-------------------|------------------------------------------------|
-| **Adia Sandra**  | [🌐 Profile](https://github.com/sandraalmeera) |
-| **Yessica**      | [🌐 Profile](https://github.com/yesicafapa)    |
-
+| **Amanda Fahma Putri**  | [🌐 Profile](https://github.com/amandaafp76) |
+| **Pawestri Wahyuning Gusti**      | [🌐 Profile](https://github.com/Pawestri10)) |
+| **Rehania Putri Nur Aini**      | [🌐 Profile](https://github.com/rehaniaputrinuraini) |
 ---
 
 ## 📝 Deskripsi
-This repository is the collaborative work of **Kelompok 2** for the **UAS Project**. It includes:
+This repository is the collaborative work of **Kelompok 8** for the **UAS Project**. It includes:
 - 📌 Initial project documentation.
 - 📌 Database features.
 - 📌 Group project report.
