@@ -1,0 +1,975 @@
+.lupa-password-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.lupa-password-page .container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+form {
+    text-align: left;
+}
+.lupa-password-page input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.lupa-password-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #003366;
+}
+a {
+    text-decoration: none;
+    color: #003366;
+    display: block;
+    margin-top: 10px;
+}
+a:hover {
+    color: #003366;
+}
+.hidden {
+    display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.biodatasiswa-page{
+    background-color: #f4f4f4;
+}
+.navbar {
+    background-color: #004085;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-left img {
+    width: 50px;
+    margin-right: 10px;
+}
+.navbar-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-menu {
+    font-size: 14px;
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+}
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.icon:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #004085;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.biodatasiswa-page .container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.biodatasiswa-page h2 {
+    font-size: 22px;
+    color: #004085;
+    margin-bottom: 15px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile img {
+    width: 120px;
+    height: 140px;
+    border-radius: 5px;
+    border: 2px solid #004085;
+}
+.biodata {
+    flex: 1;
+}
+.biodata table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.biodata td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+.biodata td:first-child {
+    font-weight: bold;
+    color: #004085;
+    width: 35%;
+}
+.actions {
+    margin-top: 15px;
+    text-align: right;
+}
+.btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btn-edit {
+    background-color: #ffc107;
+    color: black;
+    width: auto; 
+    display: inline-block;
+}
+.btn-aksi {
+    background-color: #17a2b8;
+    color: white;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+/*pendaftaran*/
+.pendaftaran-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAEDED;
+}
+.pendaftaran-page .container{
+    width: 360px;
+    width: 360px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.pendaftaran-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.pendaftaran-page input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    outline: none;
+}
+.text-small {
+    font-size: 14px;
+    display: block;
+}
+.text-small a {
+    color: #003366;
+    text-decoration: none;
+    display: inline;
+}
+.pendaftaran-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/*beranda*/
+.beranda-page {
+    background-color: #f8f9fa;
+}
+/*login*/
+.masuk-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.masuk-page .container {
+    width: 360px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.masuk-page h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+.masuk-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/*berandaguru*/
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 22px;
+    color: #004085;
+    margin-bottom: 15px;
+}
+.hero {
+    position: relative;
+    background: url('gedungsekolah.jpeg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-text {
+    position: relative;
+    z-index: 2;
+}
+.fasilitas {
+    background-color: #004085;
+    color: white;
+    padding: 55px;
+    text-align: center;
+}
+
+/*pilih kelas*/
+
+.pilihkelas-page {
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.kelas-container {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+}
+
+.kelas-container h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.select-kelas {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #003366;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+/*Tabel*/
+
+.tabel-siswa {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .tabel-siswa th,
+  .tabel-siswa td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .tabel-siswa th {
+    background-color: #f2f2f2;
+    color: #003366;
+    font-weight: bold;
+  }
+  
+  .tabel-siswa tr:nth-child(even) {
+    background-color: #fbfbfb;
+  }
+  
+  .tabel-siswa a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .tabel-siswa a:hover {
+    text-decoration: underline;
+  }
+  
+  .actions {
+    text-align: right;
+    margin-top: 15px;
+  }
+  
+  .btn-edit {
+    background-color: #ffc107;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .kelas-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+  .container-akademik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f2f2f2;
+}
+
+.card-akademik {
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.btn-akademik {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #003366;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #003366;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-akademik:hover {
+    background-color: #003366;
+    color: white;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f5f9fb;
+    color: #222;
+  }
+  
+  header {
+    background-color: #083c6c;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 60px;
+  }
+  
+  .nav-text {
+    flex-grow: 1;
+    margin-left: 1rem;
+  }
+  
+  .nav-text h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  nav {
+    margin-top: 4px;
+  }
+  
+  nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  
+  .user-area {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .bell {
+    font-size: 20px;
+  }
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #083c6c;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 2rem;
+    color: #083c6c;
+  }
+  
+  .table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: monospace;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+    color: #083c6c;
+  }
+  
+  thead {
+    background-color: white;
+  }
+
+  body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #002B5B;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            align-items: center;
+        }
+
+        .navbar-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-left img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .navbar-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar-menu a {
+            margin: 0 15px;
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        .navbar-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .icon, .profile-icon {
+            font-size: 18px;
+        }
+
+        .profile-icon {
+            background-color: white;
+            color: #002B5B;
+            border-radius: 50%;
+            padding: 1px 4px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 70px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #002B5B;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: transparent;
+            color: #002B5B;
+            text-align: center;
+            padding: 10px;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        td:first-child {
+        color: black;
+        
+        }
+
+        .status-radio input {
+            display: none;
+        }
+
+        .status-radio label {
+            display: inline-block;
+            width: 35px;
+            height: 32px;
+            line-height: 32px;
+            border-radius: 50%;
+            background-color: #ccc;
+            color: white;
+            font-weight: bold;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .status-radio input:checked + label {
+            background-color: #002B5B;
+        }
+
+        .btn-kirim {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 25px;
+            background-color: #002B5B;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            float: right;
+        }
+
+        .btn-kirim:hover {
+            background-color: #004080;
+        }
+.main-container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #002d5c;
+      margin: 30px 0 10px;
+    }
+    .presensi-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+      flex-wrap: wrap;
+    }
+
+    .sesi {
+      border: 2px solid #1f4a7c;
+      color: #1f4a7c;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .jadwal {
+      font-size: 14px;
+      color: #333;
+       flex: 12;
+      margin-left: 50px; 
+    }
+
+    .status {
+    font-weight: bold;
+    color: #1f4a7c;
+    margin-left: 60px;
+    }
+
+    .btn-hadir {
+      background-color: #1f4a7c;
+      color: white;
+      padding: 6px 16px;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .footer-btn {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+
+    .btn-tutup {
+      background-color: #002d5c;
+      color: white;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+/* Reset dan Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #093d74;
+  color: white;
+  padding: 10px 30px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.nav-text h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.user-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.bell {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.circle {
+  background-color: white;
+  color: #093d74;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main */
+main {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.presensi-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #093d74;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #093d74;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+/* Progress Bar */
+.progress {
+  margin-top: 10px;
+}
+
+.bar {
+  background-color: #e0e0e0;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.filled {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #2196f3;
+}
+
+.jadwal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  min-height: 48px; /* agar tingginya konsisten */
+}
+
+.jadwal span {
+  line-height: 1.4;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.bar {
+  flex: 1;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.filled {
+  background-color: #2196f3;
+  height: 100%;
+  width: 30%;
+  display: block;
+  border-radius: 5px 0 0 5px;
+}
+
+.percent-label {
+  font-size: 12px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.notif-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.notif-container h3 {
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.notif-label {
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.notif-item {
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.notif-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #002B5B;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.notif-text {
+    flex-grow: 1;
+}
+
+.notif-message {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.notif-time {
+    font-size: 12px;
+    color: #777;
+}
