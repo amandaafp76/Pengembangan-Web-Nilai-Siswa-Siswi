@@ -8,7 +8,7 @@
 ---
 
 ## Tech Stack
-![Database](https://img.shields.io/badge/database-MySQL-green) ![Framework](https://img.shields.io/badge/framework-Yii2-blue) ![Language](https://img.shields.io/badge/language-PHP-blue) ![Environment](https://img.shields.io/badge/environment-XAMPP-orange) ![Dependencies](https://img.shields.io/badge/dependencies-Composer-yellow)
+[SipenaKelompok8.lovestoblog.com]
 
 ---
 
@@ -34,7 +34,7 @@ We hope this repository provides a clear understanding of our project. 😊
 ## 🚀 How to Use
 1. Clone this repository locally:
    ```bash
-   git clone https://github.com/AbidRafiul/UAS_Kelompok2.git
+   git clone [https://github.com/amandaafp76/Pengembangan-Web-Nilai-Siswa-Siswi.git]
    ```
-2. Open the document files in the "Dokumen UAS" folder.
+2. Open files in the "Sipena" folder.
 3. Follow the system usage manual for further information.
