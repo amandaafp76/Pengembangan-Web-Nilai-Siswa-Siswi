@@ -2,28 +2,13 @@
 # 🌟 Kelompok 8 🌟
 
 ## 📂 Daftar Isi Folder
-- **Dokumen** 📄
-  - 📘 Dokumentasi Awal Proyek Pengembangan Basis Data Toko Risky Bawang dan Palawija.pdf
-  - 📙 Fitur Database[1].pdf
-  - 📗 LAPORAN TUGAS UAS kelompok 2.pdf
-  - 📕 MANUAL PENGGUNAAN SISTEM MANAJEMEN.pdf
 - **Folder Basic** 📁
-  - 🔧 Codingan HTML
+  - 🔧 Codingan PHP
 
 ---
 
 ## Tech Stack
 ![Database](https://img.shields.io/badge/database-MySQL-green) ![Framework](https://img.shields.io/badge/framework-Yii2-blue) ![Language](https://img.shields.io/badge/language-PHP-blue) ![Environment](https://img.shields.io/badge/environment-XAMPP-orange) ![Dependencies](https://img.shields.io/badge/dependencies-Composer-yellow)
-
----
-
-## Documentation
-For detailed documentation, refer to the files linked below (written in Indonesian):
-
-- 📘 [Dokumen Awal Proyek](#)
-- 📙 [Fitur Basis Data](#)
-- 📗 [Laporan Tugas UAS](#)
-- 📕 [Manual Penggunaan Sistem](#)
 
 ---
 
