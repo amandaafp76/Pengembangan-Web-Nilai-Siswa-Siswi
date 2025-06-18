@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("sql105.infinityfree.com", "if0_39229836", "sipena123", "if0_39229836_SipenaKelompok8");
+$conn = new mysqli("127.0.0.1:3307", "root", "", "dbnilaii");
 
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
